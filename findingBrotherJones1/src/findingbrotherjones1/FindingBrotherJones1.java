@@ -5,6 +5,8 @@
  */
 package findingbrotherjones1;
 
+import byui.cit260.findingBrotherJones.model.Player;
+
 /**
  *
  * @author Kayla Finlayson
@@ -15,7 +17,12 @@ public class FindingBrotherJones1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Player playerOne = new Player();
+        
+        playerOne.setName("Fred Flinstone");
+        
+        String playerInfo = playerOne.toString();
+        System.out.println(playerInfo);
     }
     
 }
