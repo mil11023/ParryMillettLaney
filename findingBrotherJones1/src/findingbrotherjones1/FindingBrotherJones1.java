@@ -5,6 +5,7 @@
  */
 package findingbrotherjones1;
 
+import byui.cit260.findingBrotherJones.model.Location;
 import byui.cit260.findingBrotherJones.model.Player;
 
 /**
@@ -23,6 +24,14 @@ public class FindingBrotherJones1 {
         
         String playerInfo = playerOne.toString();
         System.out.println(playerInfo);
+        
+        Location locationList = new Location();
+        
+        locationList.setLocation("Paris");
+        
+        String locationInfo = locationList.toString();
+        System.out.println(locationInfo);
     }
     
 }
+   
